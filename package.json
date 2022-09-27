@@ -1,6 +1,6 @@
 {
-  "name": "current-processes",
-  "version": "0.2.1",
+  "name": "zuosh-current-processes",
+  "version": "1.0.0",
   "description": "Get a snapshot of the currently running processes, OS-agnostic",
   "main": "current-processes.js",
   "scripts": {
@@ -10,26 +10,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/branneman/current-processes.git"
+    "url": "https://github.com/zoswing/zuosh-current-processes"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "csv-parse": "0.0.5"
+    "csv-parse": "0.0.5",
+    "iconv-lite": "^0.6.3"
   },
   "devDependencies": {
+    "chai": "^1.9.1",
+    "coveralls": "^2.10.1",
+    "istanbul": "^0.2.11",
     "jshint": "^2.5.1",
     "mocha": "^1.20.1",
-    "chai": "^1.9.1",
-    "rewire": "^2.0.1",
-    "istanbul": "^0.2.11",
-    "coveralls": "^2.10.1"
+    "rewire": "^2.0.1"
   },
   "author": "Bran van der Meer <branmovic@gmail.com> (http://bran.name/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/branneman/current-processes/issues"
+    "url": "https://github.com/zoswing/zuosh-current-processes/issues"
   },
-  "homepage": "https://github.com/branneman/current-processes",
+  "homepage": "https://github.com/zoswing/zuosh-current-processes",
   "keywords": [
     "processes",
     "os",
